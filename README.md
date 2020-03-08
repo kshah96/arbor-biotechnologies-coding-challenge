@@ -154,3 +154,5 @@ The dataset provided was extremely small, making it possible for me to do all fe
 My first thoughts, given my lack of experience in the field of the storage and processing of gene sequence data, is to parallelize as many components as possible (e.g. using technologies like Hadoop and Spark). In this scenario, if we are able to collect sufficient labeled data (i.e. labeled Cas9 proteins) develop a mathematical algorithm or Machine Learning model to make automated predictions as to whether or not a new protein is Cas9.
 
 We can then parallel process a large amount of records using the map-reduce paradigm (which has gotten quicker in recent years, with technologies like Spark allowing us to peform in-memory processing on clusters) to extract features from records simultaneously, feed the features through an algorithm/model simultaneously, and reduce the resulting set to entries that have a high probability of being Cas9.
+
+As for the problem of data storage, it may be feasible to store the raw and/or processed data on a Hadoop cluster in HDFS, and utilize tools such as Apache Hive to enable querying the data using SQL.
