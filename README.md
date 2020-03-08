@@ -141,7 +141,7 @@ The thought process for the latter was a result of researching the palindromic n
 
 Ultimately I was unable to validate the potential usefulness of these additional features, as there were no repeat regions that overlapped with any CDS sequences, and the sample size of loci with repeat_region features and non-Cas9 CDS sequences was extremely small in the given data files. Given more time, I would like to try using a larger/more diverse dataset.
 
-#### cas9 Feature observations
+#### Cas9 Feature observations
 
 The average `protein_length` for Cas9 proteins was 1210.50, whereas the overall average was 295.81. Upon first glance, it seems that Cas9 proteins have significantly larger protein lengths. Additionally, the average `min_dist_to_nearest_repeat ` was only 2112.00, as compared to the overall average of 83774.39. 
 
